@@ -1,0 +1,35 @@
+ .box-set { 
+  position: relative;
+  height: 450px;
+  background: darkgray;
+}
+
+.box {
+  /* rel Position */
+  position: relative;
+  width: 50%;
+  height: 50%;
+  background: #2db34a;
+  border: 2px solid black;
+}
+
+/* Box rules: percentages define anchors (i.e. position of each box relative to enclosing box) */
+
+.Box1 {
+  top: 0;
+  left: 0%;
+}
+
+.Box2 {
+  top: 0px;
+  right: 0px;
+}
+
+.Box3 {
+  right: 0px;
+  bottom: 0px;
+}
+
+.Box4 {
+  bottom: 0;
+}
